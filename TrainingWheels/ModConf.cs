@@ -27,9 +27,9 @@ namespace TrainingWheels
         {
             configFile = new ConfigFile(Path.Combine(Paths.ConfigPath, Plugin.MOD_NAME + ".cfg"), saveOnInit: true);
             string ammoSection = "Ammo Percentages";
-            _modMainStartingAmmo = configFile.Bind(ammoSection, "Main Ammo Percentage", 17, "Percentage from the starting ammo of Main (0-65535)");
-            _modSpecialStartingAmmo = configFile.Bind(ammoSection, "Special Ammo Percentage", 17, "Percentage from the starting ammo of Special (0-65535)");
-            _modToolStartingAmmo = configFile.Bind(ammoSection, "Tool Ammo Percentage", 17, "Percentage from the starting ammo of Tool (0-65535)");
+            _modMainStartingAmmo = configFile.Bind(ammoSection, "Main Ammo Percentage", 15, "Percentage from the starting ammo of Main (0-65535)");
+            _modSpecialStartingAmmo = configFile.Bind(ammoSection, "Special Ammo Percentage", 15, "Percentage from the starting ammo of Special (0-65535)");
+            _modToolStartingAmmo = configFile.Bind(ammoSection, "Tool Ammo Percentage", 21, "Percentage from the starting ammo of Tool (0-65535)");
 
             string healthSection = "Health";
             _regenDisabled = configFile.Bind(healthSection, "Regen Disabled", true, "Enables/Disables passive regeneration");
