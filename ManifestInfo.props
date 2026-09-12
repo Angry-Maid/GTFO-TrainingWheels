@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TSName>TrainingWheels</TSName>
         <TSAuthor>Angry-Maid</TSAuthor>
-        <TSVersion>0.0.2</TSVersion> <!-- TSVersion empty = GitInfo used instead (if available; check nuget) -->
+        <TSVersion>0.0.3</TSVersion> <!-- TSVersion empty = GitInfo used instead (if available; check nuget) -->
         <TSWebsite>https://github.com/Angry-Maid/GTFO-TrainingWheels</TSWebsite>
         <TSDescription>A silly mod to put on some training wheels on prisoners.</TSDescription>
     </PropertyGroup>
